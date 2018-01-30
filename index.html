@@ -1,0 +1,277 @@
+<!-- hvr = hover effects -->
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Noman Jabbar</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" type="text/css" href="libs/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="libs/css.css">
+      <link rel="stylesheet" type="text/css" href="src/styles.css">
+
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" >
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico" >
+
+
+      <script src="libs/jquery.min.js"></script>
+      <script src="libs/bootstrap.min.js"></script>
+      <script src="src/script.js"></script>
+      
+    </head>
+    <body>
+    <!-- Navigation bar -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a id="navbarnav" class="navbar-brand hvr-reveal" href="#">Noman Jabbar</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="hvr-underline-from-center" href="#A">ABOUT</a>
+              </li>
+              <li>
+                <a class="hvr-underline-from-center" href="#S">SKILLS</a>
+              </li>
+              <li>
+                <a class="hvr-underline-from-center" href="#TOP3">TOP 3 WORK</a>
+              </li>
+              <li>
+                <a class="hvr-underline-from-center" href="#">ALL MY WORK</a>
+              </li>
+              <li>
+                <a class="hvr-underline-from-center" href="#C">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- First Container -->
+      <div class="container-fluid bg-1 text-center patches">
+        <img src="images/noman_2.jpg" class="img-responsive img-circle margin" style="display:inline" alt="photo" width="350" height="350">
+        <div>
+          <h3>
+            An upcoming <b><i>application</i></b> developer. 
+          </h3>
+        </div>
+      </div>
+
+      <!-- Second Container -->
+      <div class="container-fluid bg-2 text-center">
+        <h3 class="margin">What Am I?</h3>
+        <p>
+          I'm many things, a developer with a goal, a student who lives on knowledge and a code freak with a burning passion in his heart.
+        </p>
+      </div>
+      <!-- Fifth Container -->
+      <div id="A" class="container-fluid bg-3 text-center">
+        <!-- start row -->
+        <h3 class="margin title">About me</h3>
+        <p>
+          Hi my name is Noman Jabbar and I'm a student, who is learning programming to become one day a good developer.<br>
+          Personally I dont have a preference for front-end or back-end.<br>
+          But in terms of knowledge, front-end is easier to program for me.<br>
+          However back-end is also easy to understand, though server-side is not my best side.<br>
+        </p>
+        <p>
+          Second of all, I am a person of few words. But when I speak, my words are solid and strong.<br>
+          Besides I like a few things apart from programming. For example, I like to watch some good old TV to relax.<br>
+          And a good book helps me to pass some time.<br>
+
+        </p>
+        <p>
+          <a href="work/CV/cv_noman_2017.pdf" class="btn btn-color hover-animate" download>Download CV</a><!--  hover-animate missing-->
+        </p>
+      </div>
+      
+      <div id="S" class="container-fluid bg-2 text-center">
+        <h2 class="margin">SKILLS</h2>
+        <h3 class="margin hvr-fade">front-end</h3>
+        <div class="skillbar clearfix " data-percent="20%">
+          <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+          <div class="skillbar-bar" style="background: #e67e22;"></div>
+          <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="30%">
+          <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+          <div class="skillbar-bar" style="background: #3498db;"></div>
+          <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+        <div class="skillbar clearfix " data-percent="25%">
+          <div class="skillbar-title" style="background: #e67e22;"><span>JavaScript</span></div>
+          <div class="skillbar-bar" style="background: #ffeb3b"></div>
+          <div class="skill-bar-percent">25%</div>
+        </div> 
+        <h3 class="margin hvr-fade">back-end</h3>
+        <div class="skillbar clearfix " data-percent="30%">
+          <div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+          <div class="skillbar-bar" style="background: #5a68a5;"></div>
+          <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+
+
+
+        <div class="skillbar clearfix " data-percent="20%">
+          <div class="skillbar-title" style="background: #27ae60;"><span>Java</span></div>
+          <div class="skillbar-bar" style="background: #2ecc71;"></div>
+          <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="20%">
+          <div class="skillbar-title" style="background: #124e8c;"><span>Python</span></div>
+          <div class="skillbar-bar" style="background: #4288d0;"></div>
+          <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+        <div class="skillbar clearfix " data-percent="10%">
+          <div class="skillbar-title" style="background: #15128c;"><span>SQL</span></div>
+          <div class="skillbar-bar" style="background: #3146e6;"></div>
+          <div class="skill-bar-percent">10%</div>
+        </div>
+        <h3 class="margin hvr-fade">Frameworks</h3>
+        <div class="skillbar clearfix " data-percent="20%">
+          <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+          <div class="skillbar-bar" style="background: #2c3e50;"></div>
+          <div class="skill-bar-percent">20%</div>
+        </div>
+        <div class="skillbar clearfix " data-percent="15%">
+          <div class="skillbar-title" style="background: #007a90;"><span>React</span></div>
+          <div class="skillbar-bar" style="background: #00d8ff;"></div>
+          <div class="skill-bar-percent">15%</div>
+        </div> <!-- End Skill Bar -->
+        <div class="skillbar clearfix " data-percent="10%">
+          <div class="skillbar-title" style="background: #900000;"><span>Angular</span></div>
+          <div class="skillbar-bar" style="background: #ff0000;"></div>
+          <div class="skill-bar-percent">10%</div>
+        </div> <!-- End Skill Bar -->
+        <h3 class="margin hvr-fade">CMS</h3>
+        <div class="skillbar clearfix " data-percent="40%">
+          <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+          <div class="skillbar-bar" style="background: #525252;"></div>
+          <div class="skill-bar-percent">40%</div>
+        </div>  <!-- End Skill Bar -->
+        <div class="skillbar clearfix " data-percent="40%">
+          <div class="skillbar-title" style="background:#bdc3c7;"><span>Drupal</span></div>
+          <div class="skillbar-bar" style="background:#ecf0f1;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div>  <!-- End Skill Bar -->
+      </div>  <!-- NOT RESPONSIVE -->
+
+      <!-- Third Container (Grid) -->
+      <div id="TOP3" class="container-fluid bg-3 text-center">    
+        <h3 class="margin">
+          TOP 3 WORK
+        </h3>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="hvr-bounce-to-right">
+              HTML & CSS
+            </p>
+            <a href="work/HTML/index.html">
+                <img src="images/html5-css3.jpg" class="img-responsive margin hvr-grow border" style="width:25%" alt="Image">
+            </a>
+          </div>
+
+          <div class="col-sm-4"> 
+            <p class="hvr-shutter-in-horizontal">
+              JavaScript
+            </p>
+            <a href="work/JS/js09-3.html">
+              <img src="images/js.png" class="img-responsive margin hvr-grow border" style="width:25%" alt="Image">
+            </a>
+          </div>
+          <div class="col-sm-4"> 
+            <p class="hvr-bounce-to-left">
+              PHP
+            </p>
+            <a href="work/PHP/Lab05.html">
+                <img src="images/php.png" class="img-responsive margin hvr-grow border" style="width:25%" alt="Image">
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    
+      <!-- Fourth Container -->
+      <div id="C" class="container-fluid bg-4 text-center">
+        <h3  class="margin">Contact me!</h3>
+        <div>
+          <div class="row">
+            <div class="col-md-4">
+              <p>
+                Want to get in touch? Just drop a note.
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Amsterdam, The Netherlands
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-phone"></span>
+                Phone: +31 6 59 20 18 38
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-envelope"></span>
+                Email: nomanjabbar1999@gmail.com
+              </p>
+            </div>
+            <form action="mail.php" method="POST">
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="sendfrom" placeholder="Email" type="email" required>
+                  </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comment" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <a>
+                      <button class="btn pull-right" name="submit" type="submit">Send</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer id="main-footer" class="container-fluid bg-5 text-center">
+		<ul class="et-social-icons">
+            <li class="et-social-icon">
+                <a href="https://plus.google.com/112285945963088028211">
+                  <i class="fa fa-google-plus" aria-hidden="true" data-toggle="tooltip" title="Google"></i>
+                </a>
+                
+            </li>
+            <li class="et-social-icon">
+                <a href="https://www.linkedin.com/in/noman-jabbar-50473a143/">
+                  <i class="fa fa-linkedin" aria-hidden="true" data-toggle="tooltip" title="LinkedIn"></i>
+                </a>
+            </li>
+            <li class="et-social-icon et-">
+                <a href="https://github.com/DaemonicNaymon">
+                    <i class="fa fa-github" aria-hidden="true" data-toggle="tooltip" title="Github"></i>
+                </a>
+            </li>
+              <li class="et-social-icon">
+                <a href="http://codepen.io/DaemonicNaymon/">
+                  <i class="fa fa-codepen" aria-hidden="true" data-toggle="tooltip" title="Codepen"></i>
+                </a>
+              </li>
+            </ul>
+      </footer>
+    </body>
+  </html>

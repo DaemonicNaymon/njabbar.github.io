@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>
+            lab05
+        </title>
+    </head>
+    <body>
+        <form action="lab05form.php" method="POST">
+            <table border = '1'>
+                <tbody>
+                    <tr>
+                        <td>
+                            Achternaam:
+                        </td>
+                        <td>
+                            <input type = 'text' name = 'achternaam'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Voornaam:
+                        </td>
+                        <td>
+                            <input type = 'text' name = 'voornaam'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Adres:
+                        </td>
+                        <td>
+                            <input type = 'text' name = 'adres'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Postcode:
+                        </td>
+                        <td>
+                            <input type = 'text' name = 'postcode'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Woonplaats:
+                        </td>
+                        <td>
+                            <input type = 'text' name = 'woonplaats'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            email:
+                        </td>
+                        <td>
+                            <input type = 'email' name = 'email'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Geslacht:
+                        </td>
+                        <td>
+                            <select name= 'geslacht'>
+                                <option value = 'man'>
+                                    man
+                                </option>
+                                <option value = 'vrouw'>
+                                    vrouw
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Opleiding:
+                        </td>
+                        <td>
+                            <input type="radio" name="opleiding" value="C#">C sharp
+                            <input type="radio" name="opleiding" value="PHP"> PHP
+                            <input type="radio" name="opleiding" value="Java">java
+                            <input type="radio" name="opleiding" value="Python">Python
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" name="submit" value="Verzenden">
+            <input type="reset" value="reset">
+        </form>
+    </body>
+</html>
