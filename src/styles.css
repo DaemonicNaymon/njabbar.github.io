@@ -355,6 +355,9 @@ p {font-size: 16px;}
 .et-social-icons li:nth-child(4):hover{
   background: #4caf50;
 }
+.et-social-icons li:nth-child(5):hover{
+  background: #af4a1e;
+}
 @media only screen and ( max-width: 980px ) {
   .et-social-icons { 
     margin: 0 0 5px; 
@@ -367,8 +370,9 @@ p {font-size: 16px;}
 .skillbar {
 	position:relative;
 	display:block;
+    margin: 0 auto;
 	margin-bottom:15px;
-	width:100%;
+	width: 50%;
 	background:#292929;
 	height:35px;
 	border-radius:3px;
@@ -390,7 +394,7 @@ p {font-size: 16px;}
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
+    width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
@@ -406,7 +410,7 @@ width:110px;
 .skillbar-title span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
+	padding:0 15px;
 	height:35px;
 	line-height:35px;
 	-webkit-border-top-left-radius:3px;
